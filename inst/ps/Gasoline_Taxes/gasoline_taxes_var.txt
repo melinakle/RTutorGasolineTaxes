@@ -1,0 +1,282 @@
+orgvar | var | descr
+
+fips | fips | fips code of U.S. state
+state | state | name of U.S. state
+year | year | year in which the observation was recorded
+fgastax | fgastax | federal gas tax in the U.S. in cents per gallon (cpg)
+sgastax | sgastax | state gas tax in cpg
+gas_tax_all | gas_tax_all | sum of federal and state gas taxes in cpg
+nom_oilprice | nom_oilprice | nominal oil price in cpg
+taxin_gas_price | taxin_gas_price | tax-inclusive gas price in cpg
+avg_sgastax | avg_sgastax | average state gas tax per year in cpg
+min_sgastax | min_sgastax | minimum state gas tax per year in cpg
+max_sgastax | max_sgastax | maximum state gas tax per year in cpg
+avg_fgastax | avg_fgastax | average federal gas tax per year in cpg
+tax_fraction | tax_fraction | tax fraction of the tax-inclusive gas price per state and year
+fifth_perc | fifth_perc | fifth-percentile of the tax-fraction per year
+median | median | median of the tax-fraction per year
+ninetyfifth_perc | ninetyfifth_perc | ninety-fifth percentule of the tax-fraction per year
+median_price | median_price | median of the tax-inclusive gas price per year
+growth8708 | growth8708 | absolute tax increase per state from 1987 to 2008
+growth6608 | growth6608 | absolute tax increase per state from 1966 to 2008
+growth6687 | growth6687 | absolute tax increase per state from 1966 to 1987
+apop_adj | apop_adj | adult population from census per state and year, adjusted
+fsize | fsize | average family size per state and year
+hug | hug | highway gasoline consumption in thousands of gallons
+lic_driver | lic_driver | number of licensed drivers per state and year
+no_auto | no_auto | number of automobiles per state and year
+no_truck | no_truck | number of (passenger) trucks per state and year
+gsp_capita | gsp_capita | gross state product per capita in 1.000
+railpop | railpop | fraction of population living in metro areas with rail transit 
+pop_state_adj | pop_state_adj | population from census per state and year, adjusted
+urbanization | urbanization | fraction of population that lives in a metropolitan area
+lngca | lngca | log of the gasoline consumption per adult
+lngpinc | lnpginc | log of the tax-inclusive gas price
+exclgp | exclgp | tax-exclusive gas price
+lngp | lngp | log of tax-exclusive gas price
+lntr | lntr | log of the tax ratio 
+trend | trend | linear time trend
+trend2 | trend2 | squared linear time trend
+lnrma | lnrma | logarithm of the road mileage per adult
+lncarscap | lncarscap | log of the number of registered cars per adult
+lntrkscap | lntrkscap | log of the number of registered trucks per adult
+lndriverscap | lndriverscap | log of the number of licensed drivers per adult
+lnincpop | lnincpop | log of the real income per adult in the specific state
+gca | gca | gas consumption per adult in thousands of gallons
+lntax | lntax | logarithm of sum of federal and state gas tax
+unemployment | unemployment | Unemployment rate
+hsgrad | hsgrad | Fraction of adults graduating high school
+bagrad | bagrad | Fraction of adults with BA
+Democrat_Gov | Democrat_Gov | Dummy variable, 1 when Democrat Governer of the state
+demsfrac | demsfrac | Fraction of a state's senate seats occupied by democrats
+demhfrac | demhfrac | Fraction of a state's house seats occupied by democrats
+budget_surplus | budget_surplus | State's budget surplus as fraction of revenues
+fd_sgastax | fd_sgastax | First-differenced values of state gas tax
+fd_gsp_capita | fd_gsp_capita | First-differenced values of GSP per capita
+fd_fsize | fd_fsize | First-differenced values of family size
+fd_autos_capita | fd_autos_capita | First-differenced values of autos per capita
+fd_drivers_capita | fd_drivers_capita | First-differenced values of drivers per capita
+fd_unemployement | fd_unemployement | First-differenced values of unemployment rate
+fd_ urbanization | fd_ urbanization | First-differenced values of urbanization dummy 
+fd_railpop | fd_railpop | First-differenced values of fraction of population living in metro areas with rail transit 
+fd_hsgrad | fd_hsgrad | First-differenced values of fraction of fraction of adults graduating high school
+fd_bagrad | fd_bagrad | First-differenced values of fraction of adults with BA
+fd_Democrat_Gov | fd_Democrat_Gov | First-differenced values of dummy variable for Democrat State Governor
+fd_demsfrac | fd_demsfrac | First-differenced values of fraction of a state's senate seats occupied by democrats
+fd_demhfrac | fd_demhfrac | First-differenced values of fraction of a state's house seats occupied by democrats
+fd_budget_surplus | fd_budget_surplus | First-differenced values of state's budget surplus as fraction of revenues
+lag_fd_gsp_capita | lag_fd_gsp_capita | Lagged first-differenced values of GSP per capita
+lag_fd_fsize | lag_fd_fsize | Lagged first-differenced values of family size
+lag_fd_autos_capita | lag_fd_autos_capita | Lagged first-differenced values of autos per capita
+lag_fd_drivers_capita | lag_fd_drivers_capita | Lagged first-differenced values of drivers per capita
+lag_fd_unemployement | lag_fd_unemployement | Lagged first-differenced values of unemployment rate
+lag_fd_ urbanization | lag_fd_ urbanization | Lagged first-differenced values of urbanization dummy 
+lag_fd_railpop | lag_fd_railpop | Lagged first-differenced values of fraction of population living in metro areas with rail transit 
+lag_fd_hsgrad | lag_fd_hsgrad | Lagged first-differenced values of fraction of fraction of adults graduating high school
+lag_fd_bagrad | lag_fd_bagrad | Lagged first-differenced values of fraction of adults with BA
+lag_fd_Democrat_Gov | lag_fd_Democrat_Gov | Lagged first-differenced values of dummy variable for Democrat State Governor
+lag_fd_demsfrac | lag_fd_demsfrac | Lagged first-differenced values of fraction of a state's senate seats occupied by democrats
+lag_fd_demhfrac | lag_fd_demhfrac | Lagged first-differenced values of fraction of a state's house seats occupied by democrats
+lag_fd_budget_surplus | lag_fd_budget_surplus | Lagged first-differenced values of state's budget surplus as fraction of revenues
+MSASIZE | MSASIZE | Population size category of the Metropolitan Statistical Area (MSA)
+DRVRCNT | DRVRCNT | Count of drivers in household
+HHFAMINC | HHFAMINC | Total household income last 12 months
+HHSIZE | HHSIZE | Count of household members
+state_code | state_code | State postal code
+NUMADLT | NUMADLT | Count of adult household members at least 18 years old
+REF_EDUC | REF_EDUC | Education of household reference person
+REF_AGE | REF_AGE | Age of reference person (yr)
+WRKCOUNT | WRKCOUNT | Count of household members with jobs
+HTPPOPDN | HTPPOPDN | Population density (persons per square mile), census tract
+HTEEMPDN | HTEEMPDN | Workers per square mile living in Tract  
+mpg_all | mpg_all | mpg for all vehicles per household
+taxpur11 | taxpur11 | Tax rate
+ptxpur11 | ptxpur11 | Tax-exclusive price
+weight | weight | Used for weighted means and weighted least squares estimates 
+survey | survey | No. of survey
+ln_age | ln_age | Log of age of the reference person
+ln_age2 | ln_age2 | Square of log of age of the reference person
+numadlt2 | numadlt2 | Square of number of adults per household
+wrkcount2 | wrkcount2 | Square of number of workers per household
+drvrcnt2 | drvrcnt2 | Square of number of drivers per household
+hhsize2 | hhsize2 | Square of household family size
+division_d1 | division_d1 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d2 | division_d2 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d3 | division_d3 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d4 | division_d4 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d5 | division_d5 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d6 | division_d6 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d7 | division_d7 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d8 | division_d8 | Dummy variable that is equal to 1 if household belongs to the respective division
+division_d9 | division_d9 |Dummy variable that is equal to 1 if household belongs to the respective division
+state_d1 | state_d1 | Dummy variable that is equal to 1 if household is located in Alaska
+state_d2 | state_d2 | Dummy variable that is equal to 1 if household is located in Alabama
+state_d3 | state_d3 | Dummy variable that is equal to 1 if household is located in Arkansas
+state_d4 | state_d4 | Dummy variable that is equal to 1 if household is located in Arizona
+state_d5 | state_d5 | Dummy variable that is equal to 1 if household is located in California
+state_d6 | state_d6 | Dummy variable that is equal to 1 if household is located in Colorado
+state_d7 | state_d7 | Dummy variable that is equal to 1 if household is located in Connecticut
+state_d8 | state_d8 | Dummy variable that is equal to 1 if household is located in the District of Columbia
+state_d9 | state_d9 | Dummy variable that is equal to 1 if household is located in Delaware
+state_d10 | state_d10 | Dummy variable that is equal to 1 if household is located in Florida
+state_d11 | state_d11 | Dummy variable that is equal to 1 if household is located in Georgia
+state_d12 | state_d12 | Dummy variable that is equal to 1 if household is located in Hawaii
+state_d13 | state_d13 | Dummy variable that is equal to 1 if household is located in Iowa
+state_d14 | state_d14 | Dummy variable that is equal to 1 if household is located in Idaho
+state_d15 | state_d15 | Dummy variable that is equal to 1 if household is located in Illinois
+state_d16 | state_d16 | Dummy variable that is equal to 1 if household is located in Indiana
+state_d17 | state_d17 | Dummy variable that is equal to 1 if household is located in Kansas
+state_d18 | state_d18 | Dummy variable that is equal to 1 if household is located in Kentucky
+state_d19 | state_d19 | Dummy variable that is equal to 1 if household is located in Lousiana
+state_d20 | state_d20 | Dummy variable that is equal to 1 if household is located in Massachusetts
+state_d21 | state_d21 | Dummy variable that is equal to 1 if household is located in Maryland
+state_d22 | state_d22 | Dummy variable that is equal to 1 if household is located in Maine
+state_d23 | state_d23 | Dummy variable that is equal to 1 if household is located in Michigan
+state_d24 | state_d24 | Dummy variable that is equal to 1 if household is located in Minnesota
+state_d25 | state_d25 | Dummy variable that is equal to 1 if household is located in Missouri
+state_d26 | state_d26 | Dummy variable that is equal to 1 if household is located in Mississippi
+state_d27 | state_d27 | Dummy variable that is equal to 1 if household is located in Montana
+state_d28 | state_d28 | Dummy variable that is equal to 1 if household is located in North Carolina
+state_d29 | state_d29 | Dummy variable that is equal to 1 if household is located in North Dakota
+state_d30 | state_d30 | Dummy variable that is equal to 1 if household is located in Nebraska
+state_d31 | state_d31 | Dummy variable that is equal to 1 if household is located in New Hampshire
+state_d32 | state_d32 | Dummy variable that is equal to 1 if household is located in New Jersey 
+state_d33 | state_d33 | Dummy variable that is equal to 1 if household is located in New Mexico
+state_d34 | state_d34 | Dummy variable that is equal to 1 if household is located in Nevada
+state_d35 | state_d35 | Dummy variable that is equal to 1 if household is located in New York
+state_d36 | state_d36 | Dummy variable that is equal to 1 if household is located in Ohio
+state_d37 | state_d37 | Dummy variable that is equal to 1 if household is located in Oklahoma
+state_d38 | state_d38 | Dummy variable that is equal to 1 if household is located in Oregon
+state_d39 | state_d39 | Dummy variable that is equal to 1 if household is located in Pennsylvania
+state_d40 | state_d40 | Dummy variable that is equal to 1 if household is located in Rhode Island
+state_d41 | state_d41 | Dummy variable that is equal to 1 if household is located in South Carolina
+state_d42 | state_d42 | Dummy variable that is equal to 1 if household is located in South Dakota
+state_d43 | state_d43 | Dummy variable that is equal to 1 if household is located in Tennessee
+state_d44 | state_d44 | Dummy variable that is equal to 1 if household is located in Texas
+state_d45 | state_d45 | Dummy variable that is equal to 1 if household is located in Utah
+state_d46 | state_d46 | Dummy variable that is equal to 1 if household is located in Virginia
+state_d47 | state_d47 | Dummy variable that is equal to 1 if household is located in Vermont
+state_d48 | state_d48 | Dummy variable that is equal to 1 if household is located in Washington
+state_d49 | state_d49 | Dummy variable that is equal to 1 if household is located in Wisconsin
+state_d50 | state_d50 | Dummy variable that is equal to 1 if household is located in West Virginia
+state_d51 | state_d51 | Dummy variable that is equal to 1 if household is located in Wyoming
+state_d52 | state_d52 | Dummy variable that is equal to 1 if household's state is not available
+workerden_d1 | workerden_d1 | Dummy variable that is equal to 1 if household is located in area with 25 jobs per square mile
+workerden_d2 | workerden_d2 | Dummy variable that is equal to 1 if household is located in area with 75 jobs per square mile
+workerden_d3 | workerden_d3 | Dummy variable that is equal to 1 if household is located in area with 150 jobs per square mile
+workerden_d4 | workerden_d4 | Dummy variable that is equal to 1 if household is located in area with 350 jobs per square mile
+workerden_d5 | workerden_d5 | Dummy variable that is equal to 1 if household is located in area with 750 jobs per square mile
+workerden_d6 | workerden_d6 | Dummy variable that is equal to 1 if household is located in area with 1500 jobs per square mile
+workerden_d7 | workerden_d7 | Dummy variable that is equal to 1 if household is located in area with 3000 jobs per square mile
+workerden_d8 | workerden_d8 | Dummy variable that is equal to 1 if household is located in area with 5000 jobs per square mile
+popden_d1 | popden_d1 | Dummy variable that is equal to 1 if household is located in are with 50 persons per square mile
+popden_d2 | popden_d2 | Dummy variable that is equal to 1 if household is located in are with 300 persons per square mile
+popden_d3 | popden_d3 | Dummy variable that is equal to 1 if household is located in are with 750 persons per square mile
+popden_d4 | popden_d4 | Dummy variable that is equal to 1 if household is located in are with 1500 persons per square mile
+popden_d5 | popden_d5 | Dummy variable that is equal to 1 if household is located in are with 3000 persons per square mile
+popden_d6 | popden_d6 | Dummy variable that is equal to 1 if household is located in are with 7000 persons per square mile
+popden_d7 | popden_d7 | Dummy variable that is equal to 1 if household is located in are with 17000 persons per square mile
+popden_d8 | popden_d8 | Dummy variable that is equal to 1 if household is located in are with 30000 persons per square mile
+urban_d1 | urban_d1 | Urban/ rural indicator, HBHUR == C (Second City)
+urban_d2 | urban_d2 | Urban/ rural indicator, HBHUR == S (Suburban)
+urban_d3 | urban_d3 | Urban/ rural indicator, HBHUR == TC (Town)
+urban_d4 | urban_d4 | Urban/ rural indicator, HBHUR == U (Urban)
+rail_d1 | rail_d1 | Dummy variable that is equal to 1 if household has access to rail
+rail_d2 | rail_d2 | Dummy variable that is equal to 1 if household  does not have access to rail
+educ_d1 | educ_d1 | Dummy variable that is equal to 1 if education of reference person less then high school graduate 
+educ_d2 | educ_d2 | Dummy variable that is equal to 1 if education of reference person high school graduate, include GED 
+educ_d3 | educ_d3 | Dummy variable that is equal to 1 if education of reference person vocational/technical training 
+educ_d4 | educ_d4 | Dummy variable that is equal to 1 if education of reference person some college, but no degree 
+educ_d5 | educ_d5 | Dummy variable that is equal to 1 if education of reference person sssociate"s degree (for example, AA) 
+inc_d1 | inc_d1 | Dummy variable that is equal to 1 if household income < $5,000
+inc_d2 | inc_d2 | Dummy variable that is equal to 1 if household income $5,000 - $9,999
+inc_d3 | inc_d3 | Dummy variable that is equal to 1 if household income $10,000 - $14,999
+inc_d4 | inc_d4 | Dummy variable that is equal to 1 if household income $15,000 - $19,999
+inc_d5 | inc_d5 | Dummy variable that is equal to 1 if household income $20,000 - $24,999
+inc_d6 | inc_d6 | Dummy variable that is equal to 1 if household income $25,000 - $29,999
+inc_d7 | inc_d7 | Dummy variable that is equal to 1 if household income $30,000 - $34,999
+inc_d8 | inc_d8 | Dummy variable that is equal to 1 if household income $35,000 - $39,999
+inc_d9 | inc_d9 | Dummy variable that is equal to 1 if household income $40,000 - $44,999
+inc_d10 | inc_d10 | Dummy variable that is equal to 1 if household income $45,000 - $49,999
+inc_d11 | inc_d11 | Dummy variable that is equal to 1 if household income $50,000 - $54,999
+inc_d12 | inc_d12 | Dummy variable that is equal to 1 if household income $55,000 - $59,999
+inc_d13 | inc_d13 | Dummy variable that is equal to 1 if household income $60,000 - $64,999
+inc_d14 | inc_d14 | Dummy variable that is equal to 1 if household income $65,000 - $69,999
+inc_d15 | inc_d15 | Dummy variable that is equal to 1 if household income $70,000 - $74,999
+inc_d16 | inc_d16 | Dummy variable that is equal to 1 if household income $75,000 - $79,999
+inc_d17 | inc_d17 | Dummy variable that is equal to 1 if household income $80,000 - $99,999
+inc_d18 | inc_d18 | Dummy variable that is equal to 1 if household income >= $ 100,000
+month_d1 | month_d1 | Dummy variable that is equal to 1 if month = 1
+month_d2 | month_d2 | Dummy variable that is equal to 1 if month = 2
+month_d3 | month_d3 | Dummy variable that is equal to 1 if month = 3
+month_d4 | month_d4 | Dummy variable that is equal to 1 if month = 4
+month_d5 | month_d5 | Dummy variable that is equal to 1 if month = 5
+month_d6 | month_d6 | Dummy variable that is equal to 1 if month = 6
+month_d7 | month_d7 | Dummy variable that is equal to 1 if month = 7
+month_d8 | month_d8 | Dummy variable that is equal to 1 if month = 8
+month_d9 | month_d9 | Dummy variable that is equal to 1 if month = 9
+month_d10 | month_d10 | Dummy variable that is equal to 1 if month = 10
+month_d11 | month_d11 | Dummy variable that is equal to 1 if month = 11
+month_d12 | month_d12 | Dummy variable that is equal to 1 if month = 12
+msa_d1 | msa_d1 | Dummy variable that is equal to 1 if household is located in MSA of less than 250,000 persons
+msa_d2 | msa_d2 | Dummy variable that is equal to 1 if household is located in MSA of 250,000 - 499,999 persons
+msa_d3 | msa_d3 | Dummy variable that is equal to 1 if household is located in MSA of 500,000 - 999,999 persons
+msa_d4 | msa_d4 | Dummy variable that is equal to 1 if household is located in MSA or CMSA of 1,000,000 - 2,999,999 persons
+msa_d5 | msa_d5 | Dummy variable that is equal to 1 if household is located in MSA or CMSA of 3 million or more persons
+msa_d6 | msa_d6 | Dummy variable that is equal to 1 if household is not located in MSA or CMSA
+year_d1 | year_d1 | Dummy variable that is equal to 1 if year = 1995
+year_d2 | year_d2 | Dummy variable that is equal to 1 if year = 1996
+year_d3 | year_d3 | Dummy variable that is equal to 1 if year = 2001
+year_d4 | year_d4 | Dummy variable that is equal to 1 if year = 2002
+year_d5 | year_d5 | Dummy variable that is equal to 1 if year = 2008
+year_d6 | year_d6 | Dummy variable that is equal to 1 if year = 2009
+lnmpg | lnmpg | Log of mpg per household
+lnpre_purprice11 | lnpre_purprice11 | Log of tax-exclusive gasoline price
+lnpurtaxrate11 | lnpurtaxrate11 | Log of tax rate
+lnpurprice11 | lnpurprice11 | Log of gasoline retail price
+purprice11 | purprice11 | Gasoline retail price
+
+mon1 | mon1 | Dummy variable that is equal to 1 if month = 1
+mon2 | mon2 | Dummy variable that is equal to 1 if month = 2
+mon3 | mon3 | Dummy variable that is equal to 1 if month = 3
+mon4 | mon4 | Dummy variable that is equal to 1 if month = 4
+mon5 | mon5 | Dummy variable that is equal to 1 if month = 5
+mon6 | mon6 | Dummy variable that is equal to 1 if month = 6
+mon7 | mon7 | Dummy variable that is equal to 1 if month = 7
+mon8 | mon8 | Dummy variable that is equal to 1 if month = 8
+mon9 | mon9 | Dummy variable that is equal to 1 if month = 9
+mon10 | mon10 | Dummy variable that is equal to 1 if month = 10
+mon11 | mon11 | Dummy variable that is equal to 1 if month = 11
+mon12 | mon12 | Dummy variable that is equal to 1 if month = 12
+avg_prce | avg_prce | Average retail gasoline price
+hh_avg_vmt | hh_avg_vmt | Household sum of avg. daily vmt
+lnprce | lnprce | Log of retail gasoline price
+lnptx_prce | lnptx_prce | Log of tax-exclusive price
+lntaxrate | lntaxrate | Log of tax rate
+lnvmt | lnvmt | Log of average daily vmt
+ptx_avg_prce | ptx_avg_prce | Tax-exclusive average price
+tax | tax | tax 
+weight_new | weight_new | Used for weighted means and weighted least squares estimates 
+monthyear | monthyear | Combination of month and year for clear allocation
+total_length_imputed | total_length_imputed | Gasoline total word count, imputed dates when missing
+total_length | total_length | Gasoline word count
+fueltax_length | fueltax_length | Fuel tax word count
+gasprice_length | gasprice_length | Gasolin price word count
+log_length | log_length | Log gasoline word count
+time | time | Time
+time2 | time2 | Time squared
+debate_dummy | debate_dummy | Dummy variable for May 1996 gas tax repeal debate 
+fd3_gas_tax_all | fd3_gas_tax_all | Change in gas tax - previous 3 months
+lead3_gas_tax_all | lead3_gas_tax_all | Change in gas tax - next 3 months
+fd3_taxin_gas_price | fd3_taxin_gas_price | Change in retail price - previos 3 months 
+lead3_taxin_gas_price | lead3_taxin_gas_price | Change in retail price - next 3 months
+big3_length | big_3_length | Sum of length big 3 tv channels in seconds
+length_price | length_price | Sum of length broadcasts on retail price in seconds
+length_tax | length_tax | Sum of length broadcasts on gas tax in seconds
+length | length | Sum of length broadcasts in seconds
+gas_tax | gas_tax | Mean gas tax
+fed_gas_tax | fed_gas_tax | Mean federal gas tax
+tot_gas_tax | tot_gas_tax | Mean total gas tax 
+
+
+
