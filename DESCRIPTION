@@ -1,0 +1,12 @@
+Package: RTutorGasolineTaxes
+Type: Package
+Title: RTutor problem set Gasoline_Taxes
+Version: 0.1
+Date: 2021-24-11
+Author: Melina Klenk
+Maintainer: Melina Klenk <melina_klenk@gmx.de>
+Description: RTutor problem set Gasoline_Taxes
+License: Not yet licensed by the author. The default suggestion for licensing is
+	Problem set content: Creative Commons (CC BY-SA)
+	Package code: GPL >= 2.0
+Depends: RTutor, dplyr, ggplot2, ggthemes, choroplethr, lfe, gridExtra, stargazer, scales, forcats
